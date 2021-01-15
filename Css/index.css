@@ -1,0 +1,153 @@
+marquee {
+    behavior: scroll;
+}
+
+marquee>h3 {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+th {
+    background-color: orangered;
+    color: yellow;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table,
+td {
+    border: 2px solid orangered;
+    border-collapse: collapse;
+}
+
+.app {
+    width: 70%;
+    margin: auto;
+    padding: 0;
+}
+
+.header {
+    background-color: orangered;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+}
+
+
+.header__nav>ul {
+    display: inline;
+    line-height: 40px;
+}
+
+.header__nav>ul>li {
+    display: inline;
+    padding: 10px 25px;
+    border-right: 1px solid black;
+    text-transform: uppercase;
+}
+
+.header__nav>ul>li>a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content__left {
+    width: 75%;
+    float: left;
+}
+
+.content__left-card {
+    width: 28%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.content__right {
+    width: 25%;
+    float: right;
+}
+
+.content__right-list {
+    width: 100%;
+    background-color: orangered;
+    text-align: right;
+}
+
+.content__right-list>ul {
+    padding: 0;
+    list-style: none;
+}
+
+.content__right-list>ul>li {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid yellow;
+}
+
+.content__right-table {
+    margin-top: 100px;
+}
+
+.content__right-table>h3 {
+    text-align: center;
+    color: red;
+}
+
+.td-update {
+    padding: 5px 0;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: orangered;
+    color: white;
+}
+
+.footer__left {
+    width: 35%;
+    float: left;
+}
+
+.footer__left>h4 {
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.footer__left>ul {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.footer__left>ul>li {
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.footer__right {
+    width: 65%;
+    float: right;
+}
+
+.footer__right>ul {
+    list-style: none;
+}
+
+span {
+    text-transform: uppercase;
+}
